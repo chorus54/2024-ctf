@@ -140,10 +140,14 @@ good_pass находится дальше по памяти после input и 
 ![image](https://github.com/user-attachments/assets/4badd789-421f-48ec-998f-ff9aaced5dde)
 
 видим find. Гибкая команда которая может привести к уязвимости повышения привелегий
+
 идем на gtfobins, находим нужный эксплойт и пробуем запустить от имени r00t в директории tmp, чтобы избежать ограничений прав
 sudo -u r00t find /tmp -exec /bin/sh \; -quit
 ![image](https://github.com/user-attachments/assets/16c94c14-331c-47c3-b162-06703d62cf9b)
 ![image](https://github.com/user-attachments/assets/0a652c50-0b58-401d-99f6-22162c484532)
+
+
+
 
 
 
